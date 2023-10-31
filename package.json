@@ -1,0 +1,36 @@
+{
+  "name": "ahj-http-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "forever ./src/js/server.js",
+    "watch": "forever -w ./src/js/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dimafdr/HelpDesk-Frontend.git"
+  },
+  "author": "Dimafdr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dimafdr/HelpDesk-Frontend/issues"
+  },
+  "homepage": "https://github.com/Dimafdr/HelpDesk-Frontend#readme",
+  "dependencies": {
+    "@koa/cors": "^4.0.0",
+    "forever": "^4.0.3",
+    "html-webpack-plugin": "^5.5.0",
+    "koa": "^2.13.0",
+    "koa-body": "^4.2.0",
+    "koa-cors": "^0.0.16",
+    "koa-static": "^5.0.0",
+    "mini-css-extract-plugin": "^2.7.5",
+    "minimatch": "^9.0.3",
+    "uuid": "^8.3.0",
+    "webpack-merge": "^5.8.0"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
